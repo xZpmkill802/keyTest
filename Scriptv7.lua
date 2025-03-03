@@ -5,13 +5,13 @@ local correctMaps = {"18668065416", "34671275","2534191426"}
 -- ฟังก์ชันที่ใช้เพิ่มคีย์ใหม่
 function AddNewKey(newKey)
     table.insert(correctKeys, newKey)  -- เพิ่มคีย์ใหม่ใน list
-    print("คีย์ใหม่ถูกเพิ่ม: " .. newKey)
+
 end
 
 -- ฟังก์ชันที่ใช้เพิ่มค่า Map ใหม่
 function AddNewMap(newMap)
     table.insert(correctMaps, newMap)  -- เพิ่ม Map ใหม่ใน list
-    print("Map ใหม่ถูกเพิ่ม: " .. newMap)
+
 end
 
 -- ฟังก์ชันตรวจสอบค่า Key และ Map
